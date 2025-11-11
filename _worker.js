@@ -18,7 +18,7 @@ https://cfxr.eu.org/getSub
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://gitee.com/knc/ss/raw/2ea834c61c49364d526627d8bc71b2665adb5d4d/cxss.ini"; //订阅配置文件
+let subConfig = "https://raw.githubusercontent.com/3377/cxss/refs/heads/main/cxss.ini"; //订阅配置文件
 let subProtocol = 'https';
 
 export default {
@@ -827,4 +827,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
 
